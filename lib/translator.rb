@@ -1,4 +1,4 @@
-#require 'yam1'
+
 
 def load_library(translator) 
   emoji_hash = YAML.load_file(translator)
