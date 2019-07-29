@@ -1,7 +1,9 @@
-# require modules here
+require 'yam1'
 
-def load_library
-  # code goes here
+def load_library 
+  #(translator)
+  
+  
 end
 
 def get_japanese_emoticon
