@@ -1,5 +1,4 @@
-
-
+require "yaml"
 def load_library(translator) 
   emoji_hash = YAML.load_file(translator)
    library_hash = {"get_meaning" => {} , "get_emoticon" => {}}
