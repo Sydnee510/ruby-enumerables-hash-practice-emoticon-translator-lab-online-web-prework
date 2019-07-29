@@ -1,7 +1,7 @@
 require 'yam1'
 
-def load_library 
-  #(translator)
+def load_library(translator) 
+  emoji_hash
   
   
 end
