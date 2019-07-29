@@ -1,7 +1,7 @@
 #require 'yam1'
 
 def load_library(translator) 
-  emoji_hash = YAML.loadfile(translator)
+  emoji_hash = YAML.load_file(translator)
    library_hash = {"get_meaning" => {} , "get_emoticon" => {}}
   emoji_hash.each do |word, emoticon_array|
     library_hash["get_meaning"][emoticon_array[1]] = word
