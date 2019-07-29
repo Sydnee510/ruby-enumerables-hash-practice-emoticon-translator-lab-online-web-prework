@@ -9,8 +9,11 @@ def load_library(translator)
   library_hash
 end
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(file_path, english_emoticon)
+  call_library = load_library(file_path)
+  japanese_result_emoticon = call_library["get_emoticon"][english_emoticon]
+ japanese_result_emoticon ? japanese_result_emoticon : "Sorry, we did not find that emoticon"
+  
 end
 
 def get_english_meaning
