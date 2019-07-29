@@ -2,7 +2,7 @@ require 'yam1'
 
 def load_library(translator) 
   emoji_hash = YAML.loadfile(translator)
-   library_hash
+   library_hash = 
   
 end
 
